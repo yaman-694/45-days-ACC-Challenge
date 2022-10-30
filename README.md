@@ -8,4 +8,5 @@
 
 - Day 3
     - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+    - [Reverse the Number](https://leetcode.com/problems/reverse-integer/)
     
