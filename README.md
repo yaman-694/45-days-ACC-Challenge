@@ -10,3 +10,6 @@
     - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
     - [Reverse the Number](https://leetcode.com/problems/reverse-integer/)
     
+- Day 4
+    - [String to integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/)
+    
