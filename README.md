@@ -12,4 +12,7 @@
     
 - Day 4
     - [String to integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/)
+
+- Day 5
+    - [3Sum](https://leetcode.com/problems/3sum/submissions/)
     
