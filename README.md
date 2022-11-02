@@ -15,4 +15,7 @@
 
 - Day 5
     - [3Sum](https://leetcode.com/problems/3sum/submissions/)
+
+- Day 6
+
     
