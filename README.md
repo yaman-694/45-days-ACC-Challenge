@@ -18,4 +18,7 @@
 
 - Day 6
 
+- Day 7
+    - [make Length 2](https://www.codechef.com/submit/MAKELENGTH1)
+
     
