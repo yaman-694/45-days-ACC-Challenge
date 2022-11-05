@@ -20,5 +20,9 @@
 
 - Day 7
     - [make Length 2](https://www.codechef.com/submit/MAKELENGTH1)
+    
+- Day 8
+    - [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/description/)
+        - Learn about hashing and use of min function in proper way
 
     
