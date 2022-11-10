@@ -24,5 +24,20 @@
 - Day 8
     - [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/description/)
         - Learn about hashing and use of min function in proper way
+- Day 9
+    - [3Sum-closet](https://leetcode.com/problems/3sum-closest/submissions/840879480/)
 
+- Day 10
+- Day 11
+- Day 12
+- Day 13
+- Day 14
+- Day 15
     
+
+---
+freopen("input.txt", "r", stdin);
+
+    // Printing the Output to output.txt file
+freopen("output.txt", "w", stdout);
+---
