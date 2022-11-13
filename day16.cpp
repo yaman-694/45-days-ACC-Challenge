@@ -30,47 +30,13 @@ typedef vector<p32> vp32;
 
 class Solution {
 public:
+    void match(string s,string p){
+        
+        
+        
+    }
     bool isMatch(string s, string p) {
-        int i = 0;
-        int j = 0;
-        char preceeding = s[0];
-        int count = 0;
-        string check = "";
-        while(i<s.size()&&j<p.size()){
-            if(s[i]==p[j]){
-                preceeding = s[i];
-                check.push_back(s[i]);
-                i++;
-                j++;
-            }
-            else if(p[j]=='.'){
-                preceeding = '.';
-                check.push_back(s[i]);
-                j++;
-                i++;
-            }
-            else if(p[j]=='*'){
-                while(preceeding==s[i]){
-                check.push_back(s[i]);
-                    i++;
-                }
-                j++;
-            }
-            else if(s[i]!=p[j]&&p[j+1]=='*'){
-                preceeding=s[i];
-                check.push_back(s[i]);
-                i++;
-                j+=2;
-            }
-            else{
-                return 0;
-            }
-            cout<<check;
-        }
-        if(s!=check){
-            return 0;
-        }
-        return 1;
+        
     }
 };
 int main()
