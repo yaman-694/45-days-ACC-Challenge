@@ -39,6 +39,8 @@
 - Day 19 
     - [Use of GCD](https://www.codechef.com/problems/PRIMEFACDIV?tab=statement)
     
+- Day 21
+	- [Prefix sum array usage pre computation to reduce time complexity]
 
 ---
 freopen("input.txt", "r", stdin);
